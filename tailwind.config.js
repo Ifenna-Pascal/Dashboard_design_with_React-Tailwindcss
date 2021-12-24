@@ -3,6 +3,7 @@ module.exports = {
   theme: {
     fontFamily: {
       Poppins: ["Poppins", "sans-serif"],
+      PT: ["PT Sans", "sans-serif"]
     },
     extend: {
       colors: {

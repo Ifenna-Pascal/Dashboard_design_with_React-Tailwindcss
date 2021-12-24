@@ -5,9 +5,9 @@ function Profile_card({ text, number, logo, color }) {
   return (
     <div className="flex w-64 mx-auto my-4 flex-col py-6 items-center shadow-md rounded-md">
       <div className="max-w-fit max-auto flex flex-1 gap-x-5">
-        <div className={`rounded-md p-4 ${color} shrink-0 justify-self-center `}>{logo}</div>
+        <div className={`rounded-md p-4 ${color} flex-1 shrink-0 justify-self-center`}>{logo}</div>
         <div>
-          <p className="text-md font-Poppins text-gray-500">{text}</p>
+          <p className="text-md font-PT font-medium text-gray-500">{text}</p>
           <b className="text-lg text-dashboard-charcoal">{number}</b>
         </div>
       </div>
